@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d0199c11aa6f514784c5c69cd8378d8, type: 3}
+  m_Name: PlayFabEditorPrefsSO
+  m_EditorClassIdentifier: 
+  DevAccountEmail: brighttorchstudio@gmail.com
+  DevAccountToken: tdpfnuf8zcnardka3ogpszr9zysyy6i8ed643tcpt5j4e8ek9mgi3afhq6ajpesy3zf8eagn3nq55bg19n5wfnxcohg11fhcp7o335ma5xfhqqqhm96trswbsgytfzhfnqziahpcugkb7cdij9x8ispu7k4xbs4fjbsmt14dpwk9unpdbjxsd7e5co87bc7f364d9zuz
+  AadAuthorization: 
+  SelectedStudio: Bright Torch Studio
+  SdkPath: Assets/PlayFabSDK
+  EdExPath: 
+  LocalCloudScriptPath: 
+  PanelIsShown: 0
+  curMainMenuIdx: 1
+  curSubMenuIdx: 0
