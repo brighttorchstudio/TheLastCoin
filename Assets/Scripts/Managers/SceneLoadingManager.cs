@@ -145,6 +145,7 @@ public class SceneLoadingManager : MonoBehaviour
         }
         else
         {
+            PlayerPrefs.SetString("Has_been_guided", "true");
             StartCoroutine(LoadScene(1));
         }
 
