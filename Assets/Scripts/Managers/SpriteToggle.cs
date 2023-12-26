@@ -34,9 +34,37 @@ public class SpriteToggle : MonoBehaviour
         }
         if (toggleValue)
         {
-            image.sprite = onSprite;
-            PlayerPrefs.SetInt(toggleName,1);
-            PlayerPrefs.SetInt(toggleName + "_value",1);
+            if(toggleName == "Language")
+            {
+                if (!PlayerPrefs.HasKey("Language"))
+                {
+                    if (Application.systemLanguage == SystemLanguage.Vietnamese)
+                    {
+                        image.sprite = offSprite;
+                        PlayerPrefs.SetInt(toggleName, 0);
+                        PlayerPrefs.SetInt(toggleName + "_value", 0);
+                    }
+                    else
+                    {
+                        image.sprite = onSprite;
+                        PlayerPrefs.SetInt(toggleName, 1);
+                        PlayerPrefs.SetInt(toggleName + "_value", 1);
+                    }
+                }
+                else
+                {
+                    image.sprite = onSprite;
+                    PlayerPrefs.SetInt(toggleName, 1);
+                    PlayerPrefs.SetInt(toggleName + "_value", 1);
+                }
+            }
+            else
+            {
+                image.sprite = onSprite;
+                PlayerPrefs.SetInt(toggleName, 1);
+                PlayerPrefs.SetInt(toggleName + "_value", 1);
+            }
+
         }
         else
         {
